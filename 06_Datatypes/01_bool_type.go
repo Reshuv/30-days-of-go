@@ -12,7 +12,7 @@ func main() {
 	a := 21
 	b := 45
 	c := 21
-	fmt.Println(a == b)
+	fmt.Println(a == b) //comparision operator
 	fmt.Println(c == c)
 	fmt.Println(b > c)
 	fmt.Println(b != a)
