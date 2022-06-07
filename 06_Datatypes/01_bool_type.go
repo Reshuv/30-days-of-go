@@ -5,9 +5,9 @@ import "fmt"
 var x bool
 
 func main() {
-	fmt.Println(x)
+	fmt.Println(x) //false because we dont have assign value to x so by default go assign value "0"
 	x = true
-	fmt.Println(x)
+	fmt.Println(x)//assigned a value so true
 
 	a := 21
 	b := 45

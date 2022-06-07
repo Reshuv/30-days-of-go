@@ -6,7 +6,7 @@ const a = 73
 
 const b = 46.8
 
-const c = "hi"
+const c = "hi" // const(a=3 b=7)
 
 func main() {
 	fmt.Println(a)

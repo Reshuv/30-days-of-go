@@ -2,13 +2,14 @@ package main
 
 import "fmt"
 
-var y = 89
+var y = 89 // used gobally
 
 func main() {
 	//short declaration operator
-	x := 46
+	//declaration and assigning a value at same time(of acertain type)
+	x := 46  //used locally
 	fmt.Println(x)
-	//declarationm and assigning a value at same time(of acertain type)
+	// declaring using var keyword
 	fmt.Println(y)
 
 	foo()

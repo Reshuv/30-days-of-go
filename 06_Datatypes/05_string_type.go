@@ -7,7 +7,7 @@ func main() {
 	fmt.Println(s)
 	fmt.Printf("%T\n", s)
 
-	bs := []byte(s)
+	bs := []byte(s)//converting string to slice of byte(byte is alias of utf-8)
 	fmt.Println(bs)
 	fmt.Printf("%T\n", bs)
 

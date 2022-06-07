@@ -13,7 +13,7 @@ func main() {
 	fmt.Printf("%#x\n", y)
 	fmt.Printf("%#x\t%b\t%x\t%T\n", y, y, y, y)
 
-	s := fmt.Sprintf("%#x\t%b\t%x\t%T\t", y, y, y, y)
+	s := fmt.Sprintf("%#x\t%b\t%x\t%T\t", y, y, y, y) //string printing
 	fmt.Println(s)
 	fmt.Printf("%v", y)
 
