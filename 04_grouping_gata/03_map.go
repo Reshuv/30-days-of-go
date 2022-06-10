@@ -41,6 +41,9 @@ func main() {
 		fmt.Println(i, v)
 	}
 
-	// delete elemenr in map
+	// delete element in map
+
+	delete(m, "Joy")
+	fmt.Println(m)
 
 }
