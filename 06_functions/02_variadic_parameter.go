@@ -7,7 +7,7 @@ func main() {
 	fmt.Println("the total is", x)
 }
 
-func sum(x ...int) int {
+func sum(x ...int) int { //variadic parameter
 	fmt.Println(x)
 	fmt.Printf("%T\n", x) //slice of x
 
